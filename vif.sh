@@ -29,7 +29,7 @@ SYNOPSIS
   Open vim files with fzf
 
 SYNTAX
-  $ vif [directory_path] [-h | --help]
+  $ vif [start_directory] [-h | --help]
 
 FLAG OPTIONS
   -h | --help       Display this help
@@ -100,7 +100,7 @@ function _check_params() {
 }
 
 #--------------------------------------------------------
-  
+
 ARGS="$*"
 
 # Check parameters and flags
